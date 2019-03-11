@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'HudsonNY';
+    src: url('/fonts/Hudson NY Slab.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('/fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('/fonts/Raleway-ExtraBold.ttf');
+}
+
+body {
+    background-color: #12151a;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+    color: #efefef;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'HudsonNY', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1>small {
+    font-size: 30%;
+    display: block;
+    color: #8BC24A;
+}
+
+h2 {
+    font-size: 2.125em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5,
+h6 {
+    font-size: 1.125em;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+#page-content {
+    width: calc(100% - 40px);
+    float: right;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.main-content {
+    color: #efefef;
+    margin-bottom: 50px;
+}
+
+.responsive-video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 25px;
+}
+
+.responsive-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#side-nav {
+    position: fixed;
+    flex-wrap: wrap;
+    background: #7BDA53;
+    height: auto;
+    min-height: 100vh;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+#side-nav img.logo {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#l-zone-link {
+    background-color: #12151A;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.625em;
+    font-family: 'HudsonNY', sans-serif;
+}
+
+.social-icons {
+    color: #efefef;
+    background-color: #12151A;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-self: flex-end;
+    font-size: 20px;
+    align-items: center;
+}
+
+.social-icons i {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+#header {
+    background: linear-gradient(-180deg, rgba(51, 54, 59, 0.50) 0%, #12151A 96%),
+        url(/img/lacross-team-celebrating-duotone.png) no-repeat center / cover;
+    text-align: center;
+    min-height: 200px;
+}
+
+i#hamburger:before {
+    color: #efefef;
+    font-size: 1.5em;
+}
+
+i#hamburger {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#header-logo {
+    margin: 0 auto;
+    max-width: 80%;
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height: 30px;
+    padding: .35em 1em;
+    font-family: 'Raleway-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #12151a;
+    border: none;
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-default {
+    background-color: #7BDA53;
+}
+
+.btn-alternate {
+    background-color: transparent;
+    border: 2px solid #efefef;
+    color: #efefef;
+}
+
+h1.page-heading {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+h1.page-heading:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #8BC24A;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+
+blockquote {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+blockquote h4,
+blockquote h3 {
+    margin: 0 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+blockquote h4 {
+    color: #7BDA53;
+    margin-left: 70px;
+}
+
+blockquote:before {
+    content: '"';
+    position: absolute;
+    color: #7BDA53;
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 10em;
+    left: 15%;
+    top: -10%;
+    z-index: -5;
+    opacity: .5;
+    transform: rotate(-10deg);
+}
+
+.homepage-video {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+footer {
+    background: #000;
+    color: #efefef;
+    font-size: .5em;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: rgba(0, 0, 0, .93);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    padding-top: 45px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu span.menu-number {
+    font-family: 'HudsonNY', sans-serif;
+    margin-right: 5px;
+    color: #8BC24A;
+    font-size: 1em;
+}
+
+#menu ul li {
+    flex: 1 1 100%;
+    margin: 5px 20px;
+}
+
+#menu ul li a.active,
+#menu ul li:hover a {
+    font-family: 'Raleway-Bold', sans-serif;
+}
+
+/* ***********RESPONSIVE*********** */
+/* ************STYLING************* */
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {}
+
+/* ******************END*********** */
+/* ***************RESPONSIVE******* */
